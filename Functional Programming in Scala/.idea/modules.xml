@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/functional-programming-in-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/functional-programming-in-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/functional-programming-in-scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/functional-programming-in-scala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/modules/mooc.iml" filepath="$PROJECT_DIR$/../.idea/modules/mooc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/modules/mooc-build.iml" filepath="$PROJECT_DIR$/../.idea/modules/mooc-build.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+abstract class Direction(val dx: Int, val dy: Int):
+  def leftTurn = Direction.values((ordinal + 1) % 4) // Direction 의 첫번째 case 부터 하나씩 내려가는 형태.
+                                                     // 한번 선언 -> right, 두번 선언 -> up
+  object Direction:
+    val Right = new Direction(1, 0){} // ordinal = 0
+    val Up = new Direction(0, 1){} // ordinal = 1
+    val Left = new Direction(-1, 0){} // ordinal = 2
+    val Down = new Direction(0, -1){} // ordinal = 3
+end Direction
+
